@@ -122,8 +122,24 @@ body{
     font-size: 14px;
     line-height: 1.1429;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
 }
 
+.contact-icon{
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.contact-icon:hover,
+.contact-icon:focus{
+    fill: #2196F3;
+}
+
+.header-contact:hover .contact-icon,
+.header-contact:focus .contact-icon{
+    fill: #2196F3;
+}
 
 /* main */
 
@@ -134,18 +150,14 @@ body{
     padding-bottom: 200px;
     background: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(../images/backgroundhero.jpg);
-    width: max-content;
+    rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
     box-sizing: content;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1600px;
+    background-size: cover;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;    
-}
-
-.hero-container{
-
 }
 
 .hero-title {
@@ -227,6 +239,17 @@ body{
     color: #212121;
     margin-bottom: 10px;
     width: 270px;
+}
+
+.feature-icons {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
 }
 
 /* Секція чим ми займаємося*/
@@ -410,11 +433,13 @@ body{
 
 .footer-soc-list{
     display: block;
+    margin-left: 70px;
 }
 .footer-soc {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 20px;
     
 }
 
@@ -447,6 +472,22 @@ body{
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
     fill: #FFFFFF;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.join{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-sizing: border-box;
 }
 /* Портфоліо____________________________________ */
 /* Кнопки портфоліо */
@@ -503,6 +544,14 @@ body{
 .portfolio-li{
     flex-basis: calc((100% - 60px)/3);
 }
+
+.portfolio-li:focus,
+.portfolio-li:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .portfolio-list-title{
     font-weight: 700;
