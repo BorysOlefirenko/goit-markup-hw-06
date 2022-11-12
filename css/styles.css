@@ -542,19 +542,29 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    
 }
 
 .portfolio-li{
     flex-basis: calc((100% - 60px)/3);
 }
 
-.portfolio-li:focus,
-.portfolio-li:hover{
+.portfolio-link{
+    text-decoration: none;
+    color: #757575;
+}
+
+.portfolio-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio-li:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .portfolio-list-title{
     font-weight: 700;
