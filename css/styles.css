@@ -242,7 +242,6 @@ body{
 }
 
 .feature-icons {
-    width: 270px;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -372,7 +371,7 @@ body{
 }
 
 .customer-link:hover .customer-icon,
-.customer-linkk:focus .customer-icon {
+.customer-link:focus .customer-icon {
     fill: #2196F3;
 }
 
@@ -460,7 +459,7 @@ body{
 }
 
 .footer-soc-link:hover,
-.footersoc-link:focus {
+.footer-soc-link:focus {
     background-color: #2196F3;
     border: #2196F3;
 }
