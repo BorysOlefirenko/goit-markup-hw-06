@@ -458,18 +458,13 @@ body{
     background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.footer-soc-link:focus,
+.footer-soc-link:hover {
     background-color: #2196F3;
     border: #2196F3;
 }
 
 .footer-soc-icon {
-    fill: #FFFFFF;;
-}
-
-.footer-soc-link:hover .footer-soc-icon,
-.footer-soc-link:focus .footer-soc-icon {
     fill: #FFFFFF;
 }
 
