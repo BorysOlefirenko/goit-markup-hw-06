@@ -29,11 +29,15 @@
             >Web<span class="logo-studio">Studio</span>
           </a>
           <ul class="header-nav">
-            <li><a class="header-nav-links" href="./index.html">Студія</a></li>
-            <li>
+            <li class="after">
+              <a class="header-nav-links" href="./index.html">Студія</a>
+            </li>
+            <li class="after">
               <a class="header-nav-links" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="header-nav-links" href="#">Контакти</a></li>
+            <li class="after">
+              <a class="header-nav-links" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="header-nav">
@@ -131,6 +135,7 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="directions">
             <li>
+              <h3 class="directions-title">Десктопні додатки</h3>
               <img
                 src="./images/box1.jpg"
                 alt="верстка сайту на клавіатурі"
@@ -138,6 +143,7 @@
               />
             </li>
             <li>
+              <h3 class="directions-title">Мобільні додатки</h3>
               <img
                 src="./images/box2.jpg"
                 alt="розробка дизайну сайту для телефону"
@@ -145,6 +151,7 @@
               />
             </li>
             <li>
+              <h3 class="directions-title">Дизайнерські рішення</h3>
               <img
                 src="./images/box3.jpg"
                 alt="вибір кольору на плпншеті"
@@ -404,6 +411,14 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="close-button-modal">
+          <svg class="close-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-closeblack"></use></svg
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
