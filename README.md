@@ -1,2 +1,1 @@
-# goit-markup-hw-06
-
+https://borysolefirenko.github.io/goit-markup-hw-06/
